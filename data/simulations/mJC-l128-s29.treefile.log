@@ -1,0 +1,45 @@
+IQ-TREE multicore version 2.3.0 COVID-edition for Linux 64-bit built Mar 14 2024
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    gho (AVX512, FMA3, 1007 GB RAM)
+Command: iqtree2 --alisim simulations/mJC-l128-s29 -t RANDOM{bd{0.1/0.05}/128} -m JC --length 100 -seed 29 -rlen 0.04 0.08 0.16 -redo
+Seed:    29 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Apr 15 22:52:04 2024
+Kernel:  AVX+FMA - 1 threads (80 CPU cores detected)
+
+Generating random Birth-death tree...
+1 tree(s) printed to simulations/mJC-l128-s29.treefile
+[Alignment Simulator] Executing
+ - Tree filepath: simulations/mJC-l128-s29.treefile
+ - Length of output sequences: 100
+ - Model: JC
+ - Number of output datasets: 1
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JC
+
+Rate parameter R:
+
+  A-C: 1.000
+  A-G: 1.000
+  A-T: 1.000
+  C-G: 1.000
+  C-T: 1.000
+  G-T: 1.000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A        -1     0.333     0.333     0.333
+  C     0.333        -1     0.333     0.333
+  G     0.333     0.333        -1     0.333
+  T     0.333     0.333     0.333        -1
+
+Model of rate heterogeneity: Uniform
+
+[Alignment Simulator] Done
+Simulation time: 0.040s
+Date and Time: Mon Apr 15 22:52:04 2024
